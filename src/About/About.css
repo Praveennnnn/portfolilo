@@ -1,0 +1,22 @@
+.about {
+    background-color: black;
+}
+
+.aboutTextPart{
+    display: flex;
+    align-items: center;
+}
+.downloadcv{
+    color: white;
+    background-color: blueviolet;
+}
+
+.downloadcv{
+    color: aliceblue;
+    background-color:blueviolet;
+}
+.downloadcv:hover{
+    background-color: blueviolet;
+    color: aliceblue;
+    border: 1px solid blueviolet;
+}
