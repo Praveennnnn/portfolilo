@@ -1,0 +1,34 @@
+.Project {
+    background-color: black;
+    color: aliceblue;
+    padding: 5rem 0;
+}
+
+hr {
+    height: 2px;
+    background-image: linear-gradient(to right, black, white, white, black, black);
+    border: none;
+}
+
+.myProjectText {
+    text-align: center;
+}
+
+.myProjectText span {
+    color: blueviolet;
+}
+.card{
+    transition: 2s;
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.card-body a{
+    color: aliceblue;
+    background-color: blueviolet;
+}
+.card-body a:hover{
+    background-color: transparent;
+    border: 1px solid blueviolet;
+}

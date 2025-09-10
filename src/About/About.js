@@ -10,7 +10,7 @@ function About() {
     AOS.init({ duration: 2000, });
   }, []);
   return (
-    <div className='w-100 about'>
+    <div className='w-100 about' id='About'>
         <div className='container'>
             <div className='row pt-5'>
                 <div className='col-12 col-md-6 col-lg-6 aboutImagePart' data-aos ="fade-right">

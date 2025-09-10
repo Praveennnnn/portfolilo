@@ -10,7 +10,7 @@ import '../Home/Home.css'
 
 function Home() {
   return (
-    <div className='w-100  home'>
+    <div className='w-100  home' id='Home'>
         <div className='container'>
             <div className='row pt-5'>
                 <div className='col-12 col-md-6 col-lg-6 homeTextPart text-white'>

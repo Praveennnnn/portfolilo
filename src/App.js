@@ -4,6 +4,8 @@ import Nav from "./nav/Nav.js";
 import Home from "./Home/Home.js";
 import About from './About/About.js';
 import Services from './Services/Services.js';
+import Project from './Project/Project.js';
+import Contact from './Contact/Contact.js';
 
 
 function App() {
@@ -13,8 +15,9 @@ function App() {
       <Home />
       <About />
       <Services/>
-    </div>
-   
+      <Project/>
+      <Contact/>
+    </div>   
   );
 }
 

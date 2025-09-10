@@ -11,8 +11,8 @@ function Services() {
         AOS.init({duration :2000,});
     },[])
   return (
-    <div className='services p-5'>
-      <div className='myservicesText pt-5'>
+    <div className='services p-5' id='Services'>
+      <div className='myServicesText pt-5'>
         <h3 className='text-center'>MY <span>SERVICES</span></h3>
         <hr />
       </div>

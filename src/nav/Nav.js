@@ -21,13 +21,16 @@ function Nav() {
                 <a className="nav-link active" aria-current="page" href="/Home">Home</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/About">About</a>
+                <a className="nav-link" href="#About">About</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Services</a>
+                <a className="nav-link" href="#Services">Services</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Project</a>
+                <a className="nav-link" href="#Project">Project</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#Contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -35,7 +38,7 @@ function Nav() {
       </nav>
       <div className="offcanvas offcanvas-start" tabIndex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
         <div className="offcanvas-header">
-          <h5 className="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+          <h5 className="offcanvas-title" id="offcanvasExampleLabel">Select</h5>
           <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div className="offcanvas-body">
@@ -44,13 +47,16 @@ function Nav() {
                 <a className="nav-link active" aria-current="page" href="/Home">Home</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/About">About</a>
+                <a className="nav-link" href="#About">About</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/Services">Services</a>
+                <a className="nav-link" href="#Services">Services</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Project</a>
+                <a className="nav-link" href="#Project">Project</a>
+              </li>
+               <li className="nav-item">
+                <a className="nav-link" href="#Contact">Contact</a>
               </li>
           </div>
           </div>
