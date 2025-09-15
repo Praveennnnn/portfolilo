@@ -26,7 +26,7 @@ function Project() {
               <div className='card-body'>
                 <h5 className=' card-title'>Social Media</h5>
                 <p> A platform for managing and scheduling social media content efficiently </p>
-                <a href='' className='btn'>More Details</a>
+                <a href='' className='btn'>GitHub</a>
               </div>
             </div>
           </div>
@@ -37,7 +37,7 @@ function Project() {
               <div className='card-body'>
                 <h5 className=' card-titile'>Hospital Management</h5>
                 <p> A system designed to streamline hospital operations..A system designed to streamline hospital operations  </p>
-                <a href='' className='btn'>More Details</a>
+                <a href='' className='btn'>GitHub</a>
               </div>
             </div>
           </div>
@@ -48,7 +48,7 @@ function Project() {
               <div className='card-body'>
                 <h5 className=' card-titile'>Portfolio Website</h5>
                 <p> A responsive portfolio website showcasing my work...A responsive portfolio website showcasing my work </p>
-                <a href='' className='btn'>More Details</a>
+                <a href='https://github.com/Praveennnnn/portfolilo' className='btn'>GitHub</a>
               </div>
             </div>
           </div>

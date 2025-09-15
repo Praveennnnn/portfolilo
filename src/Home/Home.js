@@ -35,7 +35,7 @@ function Home() {
                        </div>
                     </div >
                 </div>
-                <div className='col-12 col-md-6 col-lg-6'>
+                <div className='col-1z col-md-6 col-lg-6'>
                     <img src={Praveen} alt='Praveen' />
                 </div>
             </div>
