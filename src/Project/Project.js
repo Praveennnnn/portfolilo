@@ -24,9 +24,9 @@ function Project() {
             <div className='card text-dark'>
               <img src={SocialMedia} className ="card-img-top" alt=" Social Media" />
               <div className='card-body'>
-                <h5 className=' card-title'>Social Media</h5>
-                <p> A platform for managing and scheduling social media content efficiently </p>
-                <a href='' className='btn'>GitHub</a>
+                <h5 className=' card-title'>Ecommerce</h5>
+                <p>A platform for browsing and managing products online, without integrated payment functionality.</p>
+                <a href='https://68d0eefcdc2c6fa06881d0ba--eshopyyyyy.netlify.app/' className='btn'>Visit</a>
               </div>
             </div>
           </div>

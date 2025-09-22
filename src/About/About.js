@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import Praveen from '../Images/Praveen.png';
+import Praveen from '../Images/Praveen1.jpeg';
 import '../About/About.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -21,8 +21,8 @@ function About() {
             <div>
               <h3>Hello, I Am Praveen KN</h3>
               <p>
-                Passionate aspiring React JS developer with a strong foundation in Java programming. Eager to contribute skills as an
-                entry-level Front-end Developer proficient in HTML, CSS, JavaScript, ReactJs and SQL. Enthusiastic about creating
+                Passionate aspiring React JS developer with a strong foundation in JavaScript programming. and hands-on experience working
+                 React js , Node js , MySQL , MongoDB. Enthusiastic about creating
                 dynamic web applications and collaborating on impactful projects. Excited to join a team where I can learn, grow, and
                 make a meaningful impact.
               </p>

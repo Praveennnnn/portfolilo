@@ -20,15 +20,11 @@ background-image: url('../Images/36e4d0b856694fc471344b644a1dd6e4.gif');
     font-size: 20px;
     padding: 0px 10px;
 }
-.icons a:hover{
-    color: blueviolet;
-}
+
 .icons{
     color: aliceblue;
 }
-.icons :hover{
-    background-color: blueviolet;
-}
+
 @media screen and (max-width:768px) {
     .home{
         height: auto;
