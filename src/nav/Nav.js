@@ -9,7 +9,7 @@ function Nav() {
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div className="container">
-          <a className="navbar-brand" href="#">PRVAEEN KN</a>
+          <a className="navbar-brand" href="/Home">PRVAEEN KN</a>
           <button
             className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="navbarSupportedContent" aria-expanded="false"aria-label="Toggle navigation"
           >
