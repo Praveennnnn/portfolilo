@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode, faPen } from '@fortawesome/free-solid-svg-icons';
+import { faCode, faPen,faDatabase } from '@fortawesome/free-solid-svg-icons';
 import '../Services/Services.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -20,24 +20,24 @@ function Services() {
       <div className='container text-center mt-5'>
         <div className='row'>
           <div className='col-12 col-md-6 col-lg-4 p-3' data-aos="fade-right">
-            <div className='border service  p-4'>
+            <div className='border service text-center p-3'>
               <p className='servicesIcon'><span className='border p-2'><FontAwesomeIcon icon={faCode} size="2x" /></span></p>
-              <h5 className='mt-4'>WEB DEVELOPMENT</h5>
-              <p>Building responsive and modern web applications using HTML, CSS, JavaScript, and React.</p>
-            </div>
-          </div>
-          <div className='col-12 col-md-6 col-lg-4'>
-            <div className='border service text-center p-4' data-aos="zoom-left">
-              <p className='servicesIcon'><span className='border p-2'><FontAwesomeIcon icon={faPen} size="2x" /></span></p>
               <h5 className='mt-4'>WEB DESIGN</h5>
-              <p>Creating user-friendly and visually appealing designs using Figma, Adobe XD, and modern UI practices.</p>
+                <p>Creating user-friendly and visually appealing designs using Figma, Adobe XD, and modern UI practices.</p>
             </div>
           </div>
-           <div className='col-12 col-md-6 col-lg-4'>
-            <div className='border service text-center p-4'data-aos="fade-left">
-              <p className='servicesIcon'><span className='border p-2' ><FontAwesomeIcon icon={faPen} size="2x" /></span></p>
-              <h5>WEB DESIGN</h5>
-              <p>Creating user-friendly and visually appealing designs using Figma, Adobe XD, and modern UI practices.</p>
+          <div className='col-12 col-md-6 col-lg-4' data-aos="zoom-left">
+              <div className='border service text-center  p-4'>
+              <p className='servicesIcon'> <span className='border p-2'><FontAwesomeIcon icon={faPen} size="2x" /></span></p>
+              <h5 className='mt-4'>FRONTEND DEVELOPER</h5>
+                <p>Developing responsive and dynamic user interfaces using HTML, CSS, JavaScript, and React.</p>
+            </div>
+          </div>
+           <div className='col-12 col-md-6 col-lg-4' data-aos="fade-left">
+            <div className='border service text-center p-4'>
+              <p className='servicesIcon'><span className='border p-2' ><FontAwesomeIcon icon={faDatabase} size="2x" /></span></p>
+              <h5 className='mt-4'>BACKEND DEVELOPER</h5>
+                  <p>Building scalable server-side applications and APIs using Node.js, Express, and MongoDB.</p>
             </div>
           </div>
         </div>
